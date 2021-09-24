@@ -48,6 +48,26 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ErpBE100">
+      <HintPath>C:\Program Files (x86)\PRIMAVERA\SG100\Apl\ErpBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ErpBS100">
+      <HintPath>C:\Program Files (x86)\PRIMAVERA\SG100\Apl\ErpBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StdBE100">
+      <HintPath>C:\Program Files (x86)\PRIMAVERA\SG100\Apl\StdBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StdPlatBE100">
+      <HintPath>C:\Program Files (x86)\PRIMAVERA\SG100\Apl\StdPlatBE100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StdPlatBS100">
+      <HintPath>C:\Program Files (x86)\PRIMAVERA\SG100\Apl\StdPlatBS100.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -73,6 +93,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbrirEmpresa.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
